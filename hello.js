@@ -1,6 +1,6 @@
-// singleobject.js
+// hello.js
 
-function Hello(){
+function Hello() {
   var name;
 
   this.setName = function(thyName) {
@@ -8,8 +8,8 @@ function Hello(){
   };
 
   this.sayHello = function() {
-    console.log('Hello singleobject ' + name);
+    console.log('Hello ' + name);
   };
 };
 
-exports.Hello = Hello;
+module.exports  = Hello;
